@@ -1,0 +1,12 @@
+@import "../variables/variables.scss";
+@import "../sass2/_extend.scss";
+@import "../sass2/_mixins.scss";
+
+
+.color-fondo-nav{
+    @extend .header-footer;
+    .hover:hover{
+        color: black;
+        transition: .2s;
+    }
+}
