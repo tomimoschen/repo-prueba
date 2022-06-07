@@ -51,15 +51,17 @@
   font-family: "Montserrat";
   font-size: 10vw;
   font-weight: bold;
-  margin: 2vh 0vh; }
+  margin: 5vh 0vh; }
 
 .titular {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 5vw; }
+  font-size: 5vw;
+  font-color: crimson; }
 
 p {
-  font-size: 4.5vw; }
+  font-size: 4.5vw;
+  font-family: 'Montserrat'; }
 
 .carta_container {
   display: flex;
