@@ -57,11 +57,13 @@
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 5vw;
-  font-color: crimson; }
+  margin-bottom: 1.5vh; }
 
 p {
-  font-size: 4.5vw;
-  font-family: 'Montserrat'; }
+  font-size: 4vw;
+  font-family: 'Montserrat';
+  line-height: normal;
+  margin-bottom: .5vh; }
 
 .carta_container {
   display: flex;
@@ -110,113 +112,38 @@ p {
       height: auto;
       width: auto; }
 
+.color-rojo {
+  background-color: crimson;
+  border-radius: 15px;
+  border: 0; }
+
+.titular {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 5vw;
+  margin-bottom: 15px; }
+
+.subtitulo {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 4vw;
+  margin-bottom: 5px; }
+
+p {
+  font-size: 4vw;
+  font-family: 'Montserrat';
+  line-height: normal;
+  margin-bottom: 1.2vh; }
+
 .calendario-titulo {
   margin: 5vh 0px;
   width: 100%;
   text-align: center;
-  text-decoration: underline 1.5vh crimson;
+  text-decoration: underline 2vw crimson;
   color: black;
   font-family: "Montserrat";
-  font-size: 3.5em;
+  font-size: 10vw;
   font-weight: bold; }
-
-.container-grid {
-  display: grid;
-  box-sizing: border-box;
-  width: 90%;
-  grid-template-areas: "card1 card2 card3 card4" "card5 card6 card7 card8" "card9 card10 card11 card12";
-  gap: 25px;
-  margin: auto;
-  justify-items: center; }
-  .container-grid .cal-card1 {
-    grid-area: card1; }
-  .container-grid .cal-card2 {
-    grid-area: card2; }
-  .container-grid .cal-card3 {
-    grid-area: card3; }
-  .container-grid .cal-card4 {
-    grid-area: card4; }
-  .container-grid .cal-card5 {
-    grid-area: card5; }
-  .container-grid .cal-card6 {
-    grid-area: card6; }
-  .container-grid .cal-card7 {
-    grid-area: card7; }
-  .container-grid .cal-card8 {
-    grid-area: card8; }
-  .container-grid .cal-card9 {
-    grid-area: card9; }
-  .container-grid .cal-card10 {
-    grid-area: card10; }
-  .container-grid .cal-card11 {
-    grid-area: card11; }
-  .container-grid .cal-card12 {
-    grid-area: card12; }
-  .container-grid .cal-card1,
-  .container-grid .cal-card2,
-  .container-grid .cal-card3,
-  .container-grid .cal-card4,
-  .container-grid .cal-card5,
-  .container-grid .cal-card6,
-  .container-grid .cal-card7,
-  .container-grid .cal-card8,
-  .container-grid .cal-card9,
-  .container-grid .cal-card10,
-  .container-grid .cal-card11,
-  .container-grid .cal-card12 {
-    justify-self: center;
-    display: flex;
-    flex-flow: wrap; }
-    .container-grid .cal-card1:hover,
-    .container-grid .cal-card2:hover,
-    .container-grid .cal-card3:hover,
-    .container-grid .cal-card4:hover,
-    .container-grid .cal-card5:hover,
-    .container-grid .cal-card6:hover,
-    .container-grid .cal-card7:hover,
-    .container-grid .cal-card8:hover,
-    .container-grid .cal-card9:hover,
-    .container-grid .cal-card10:hover,
-    .container-grid .cal-card11:hover,
-    .container-grid .cal-card12:hover {
-      transform: scale(103%);
-      transition: ease-in-out .2s;
-      box-shadow: 1px 1px 3.7px rgba(225, 30, 30, 0.084), 2.4px 2.3px 8.8px rgba(225, 30, 30, 0.088), 4.5px 4.4px 16.5px rgba(225, 30, 30, 0.36), 8px 7.8px 29.5px rgba(255, 30, 30, 0.072), 15px 14.6px 55.1px rgba(255, 30, 30, 0.26), 36px 35px 132px rgba(225, 30, 30, 0.22); }
-  .container-grid .calcard-img {
-    background-color: chartreuse;
-    background-size: cover;
-    width: 368px;
-    height: 368px;
-    margin: 20px; }
-    .container-grid .calcard-img .calcard-img calcard-img-1 {
-      background-image: url(../assets/saudiarabiagp.jpg); }
-    .container-grid .calcard-img .calcard-img-2 {
-      background-image: url(../assets/melbournegp.jpg); }
-    .container-grid .calcard-img .calcard-img-3 {
-      background-image: url(assets/imolagp.jpg); }
-  .container-grid .calcard-title {
-    color: #fafafa;
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
-    width: 100%; }
-  .container-grid .calcard-subtitle {
-    color: #0f0f0f;
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 1.8em;
-    text-align: center;
-    width: 100%; }
-  .container-grid .card-p {
-    color: #fafafa;
-    font-size: 1em;
-    width: 90%;
-    height: fit-content;
-    margin: 5px;
-    padding: 5px;
-    text-align: justify;
-    justify-content: center; }
 
 .contenedor-iframe {
   position: relative;
