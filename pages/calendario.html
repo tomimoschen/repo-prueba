@@ -7,49 +7,350 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/Logo_Haas_F1.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles2.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <meta name="description" content="Calendario de Grandes Premios de la temporada 2022 del Campeonato Mundial de Formula Uno">
-    <meta name="keywords" content="Calendario, Carreras, Fechas proximas, Arabia Saudita, España, Gran Premio, GP, Monaco, 2022, bahrein, Competicion, Campeonato">
+    <meta name="description"
+        content="Calendario de Grandes Premios de la temporada 2022 del Campeonato Mundial de Formula Uno">
+    <meta name="keywords"
+        content="Calendario, Carreras, Fechas proximas, Arabia Saudita, España, Gran Premio, GP, Monaco, 2022, bahrein, Competicion, Campeonato">
     <title>Haas F1-Calendario</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar color-fondo-nav">
+        <nav class="navbar navbar-expand-lg" style="background-color: crimson;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="../assets/haasf1team_logo.png" width="20%" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active link-light fw-bold hover fs-5" aria-current="page"
-                            href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light fw-bold hover fs-5" href="./equipo.html">Equipo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light fw-bold hover fs-5" href="./calendario.html">Calendario</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light fw-bold hover fs-5" href="./media.html">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light fw-bold hover fs-5s" href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
+                <a class="navbar-brand" href="../index.html"><img class="logo-img" src="../assets/haasf1team_logo.png"
+                        width="20%" alt="logo"></a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarText">
+                    <ul class="navbar-nav m-0 p-0">
+                        <li class="nav-item">
+                            <a class="nav-link link-light active fw-bold hover fs-5" aria-current="page"
+                                href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light fw-bold hover fs-5" href="./equipo.html">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light fw-bold hover fs-5"
+                                href="./calendario.html">Calendario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light fw-bold hover fs-5" href="./media.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light fw-bold hover fs-5" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
-<!-- CARTAS CALENDARIO -->
+        </nav>
+    </header>
+    <!-- CARTAS CALENDARIO -->
     <h1 class="calendario-titulo">Calendario</h1>
-    <section class="container-grid">
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/bahraingp.jpg" class="card-img-top" alt="Sakhir International Circuit">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Bahrein</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Marzo</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">18-20</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Bahrein se disputó por primera vez el 4 de abril de
+                2004. La distancia es de <strong>57</strong> vueltas. El constructor más vencedor es
+                <strong>Ferrari</strong> (7), mientras que el piloto mas laureado es <strong>Lewis Hamilton</strong>
+                (5).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/saudiarabiagp.jpg" class="card-img-top" alt="Jeddah Corniche Circuit">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Arabia Saudita</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Marzo</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">25-27</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Arabia Saudita es una carrera puntuable para el
+                Campeonato Mundial de Fórmula 1 a partir de 2021. La distancia es de <strong>50</strong> vueltas. El
+                último constructor vencedor es <strong>Red Bull</strong>, mientras que el último piloto que ganó es
+                <strong>Max Verstappen</strong>.
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/melbournegp.jpg" class="card-img-top" alt="Albert Park Circuit">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Australia</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Marzo</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">08-10</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Australia se disputa actualmente en el circuito
+                callejro de Albert Park de la ciudad de Melbourne, Australia.
+                La distancia es de <strong>58</strong> vueltas. El constructor más vencedor es <strong>Ferrari</strong>
+                (13), mientras que el piloto mas laureado es <strong>Lewis Hamilton</strong> (4). </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/imolagp.jpg" class="card-img-top" alt="Autodromo Enzo e Dino Ferrari">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Italia</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Abril</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">22-24</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de San Marino se disputó desde 1981 hasta 2006,
+                regresando en el 2020 como Gran Premio de la Emilia Romaña. La distancia es de <strong>63</strong>
+                vueltas. El constructor más vencedor es <strong>Williams</strong> (8), mientras que el piloto mas
+                laureado es <strong>Michael Schumacher</strong> (7). </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/miamigp.jpg" class="card-img-top" alt="Miami International Autodrome">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Estados Unidos</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Nayo</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">06-08</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Miami se disputó por primera vez este año, quedandose
+                en el calendario hasta el 2032. La distancia es de <strong>57</strong> vueltas. El
+                último constructor vencedor es <strong>Red Bull</strong>, mientras que el último piloto que ganó es
+                <strong>Max Verstappen</strong>.
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/spaingp.jpg" class="card-img-top" alt="Circuit de Montmeló, Barcelona-Catalunya">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">España</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Mayo</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">20-22</h5>
+            <p class="card-text text-light mt-2"> El Gran Premio de España está en el campeonato desde 1951. Actualmente
+                se disputa en el Circuito de Barcelona-Cataluña, en Montmeló, España La distancia es de
+                <strong>66</strong> vueltas. El constructor más vencedor es
+                <strong>Ferrari</strong> (12), mientras que el piloto mas laureado es <strong>Michael
+                    Schumacher</strong>
+                (6).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/monacogp.jpg" class="card-img-top" alt="Loews, circuito callejro de Monte Carlo">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Mónaco</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Mayo</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">27-29</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Mónaco se disputó por primera vez en 1929, ingresando
+                al campeonato oficial en 1950. La distancia es de <strong>78</strong> vueltas. El constructor más
+                vencedor es
+                <strong>Mclaren</strong> (12), mientras que el piloto mas laureado es <strong>Ayrton Senna</strong>
+                (6).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/azerbaijangp.jpg" class="card-img-top" alt="Baku Street Circuit, Castle Turn">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Azerbaiyán</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Junio</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">10-12</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Azerbaiyán desde la temporada 2017, se disputa en la
+                ciudad de Bakú, capital de Azerbaiyán, en el Circuito callejero de Bakú. La distancia es de
+                <strong>51</strong> vueltas. El constructor más vencedor es
+                <strong>Mercedes</strong> (2), mientras que el útlimo piloto que ganó es <strong>Sergio Pérez</strong>
+                (5).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/canadagp.jpg" class="card-img-top" alt="Gilles Villenueve Circuit, Montreal">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Canadá</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Junio</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">17-19</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Canada es una prueba del campeonato desde la
+                temporada 1967, se disputa en en el Circuito Gilles Villenueve. La distancia es de
+                <strong>70</strong> vueltas. El constructor más vencedor es
+                <strong>Ferrari</strong> (14), mientras que el piloto mas laureado es <strong>Michael
+                    Schumacher</strong>
+                (7).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/ukgp.jpg" class="card-img-top" alt="Silverstone">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Gran Bretaña</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Julio</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">01-03</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Gran Bretaña forma parte del campeonato desde la
+                primera temporada, se disputa en en Silverstone. La distancia es de
+                <strong>52</strong> vueltas. El constructor más vencedor es
+                <strong>Ferrari</strong> (16), mientras que el piloto mas laureado es <strong>Lewis Hamilton</strong>
+                (8).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/austriagp.jpg" class="card-img-top" alt="Red Bull Ring Circuit">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Austria</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Julio</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">08-10</h5>
+            <p class="card-text text-light mt-2">La primera edición del Gran Premio de Austria se disputó en 1964, en la
+                pista de aterrizaje de
+                Zeltweg Airfield. Actualmente se corre en el Red Bull Ring. La distancia es de
+                <strong>71</strong> vueltas. El constructor más vencedor es <strong>Mclaren</strong> (6), mientras que
+                el piloto mas laureado es
+                <strong>Alain Prost</strong>
+                (3).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/francegp.jpeg" class="card-img-top" alt="Circuito Paul Ricard">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Francia</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Julio</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">22-24</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Francia volvió al campeonato en 2018, en el circuito
+                de Paul Ricard. La distancia es de
+                <strong>53</strong> vueltas. El constructor más vencedor es
+                <strong>Ferrari</strong> (17), mientras que el piloto mas laureado es <strong>Michael
+                    Schumacher</strong>
+                (8).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/hungariangp.jpg" class="card-img-top" alt="Hungaroring">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Hungría</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Julio</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">29-31</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Hungría fue el primer GP disputado al este del telon
+                de acero, se disputa desde 1986. La distancia es de
+                <strong>70</strong> vueltas. El constructor más vencedor es
+                <strong>Mclaren</strong> (11), mientras que el piloto mas laureado es <strong>Lewis Hamilton</strong>
+                (8).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/spagp.jpeg" class="card-img-top" alt="Eau Rouge, Spa Francorchamps">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Bélgica</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Agosto</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">26-28</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Bélgica se disputa desde 1925, y forma parte del
+                campeonato desde 1952. La distancia es de
+                <strong>44</strong> vueltas. El constructor más vencedor es
+                <strong>Ferrari</strong> (18), mientras que el piloto mas laureado es <strong>Michael
+                    Schumacher</strong>
+                (6).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/netherlandsgp.jpg" class="card-img-top" alt="Zandvoort">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Países Bajos</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Septiembre</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">02-04</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de los Países Bajos se disputó desde 1952 al 1985,
+                volviendo a la Formula 1 en 2021 La distancia es de
+                <strong>72</strong> vueltas. El constructor más vencedor es
+                <strong>Ferrari</strong> (9), mientras que el piloto mas laureado es <strong>Jim Clark</strong>
+                (4).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/monzagp.jpg" class="card-img-top" alt="Monza, Italia">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Italia</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Septiembre</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">09-11</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Italia es una de las carreras de Gran Premio más
+                antiguas, con su primera edición disputada en el año 1921 en el circuito de Monza, forma parte del
+                campeonato desde 1950. La
+                distancia es de
+                <strong>53</strong> vueltas. El constructor más vencedor es
+                <strong>Ferrari</strong> (20), mientras que el piloto mas laureado es <strong>Michael
+                    Schumacher</strong>
+                (5).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/singaporegp.jpg" class="card-img-top" alt="Marina Bay street Circuit">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Singapur</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Septiembre-Octubre</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">30-02</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Singapur es la primera carrera nocturna en ingresar
+                al campeonato, se disputa desde 2007. La distancia es de
+                <strong>61</strong> vueltas. El constructor más vencedor es
+                <strong>Mercedes</strong> (4), mientras que el piloto mas laureado es <strong>Sebastian Vettel</strong>
+                (5).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/suzukagp.jpg" class="card-img-top" alt="Suzuka">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Japón</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Octubre</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">07-09</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Japón, se disputa desde 1976, en los circuitos de
+                Fuji y Suzuka. La distancia es de
+                <strong>53</strong> vueltas. El constructor más vencedor es
+                <strong>Mclaren</strong> (9), mientras que el piloto mas laureado es <strong>Michael Schumacher</strong>
+                (6).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/usagp.jpg" class="card-img-top" alt="Circuit of the Americas">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Estados Unidos</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Octubre</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">21-23</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de los Estados Unidos se ha disputado en varias
+                ocasiones desde 1959
+                en diferentes localidades, actualmente en Texas. La distancia es de
+                <strong>61</strong> vueltas. El constructor más vencedor es
+                <strong>Ferrari</strong> (10), mientras que el piloto mas laureado es <strong>Lewis Hamilton</strong>
+                (6).
+            </p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/interlagosgp.jpg" class="card-img-top" alt="Autodromo Jose Carlos Pace">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Brasil</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Noviembre</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">11-13</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de São Paulo (anteriormente de Brasil) se disputa desde 1973. Actualmente en el Autódromo José Carlos Pace en Interlagos y anteriormente tuvo lugar
+                en el Autódromo Internacional Nelson Piquet de Jacarepaguá. La distancia es de
+                <strong>71</strong> vueltas. El constructor más vencedor es
+                <strong>Mclaren</strong> (12), mientras que el piloto mas laureado es <strong>Alain Prost</strong>
+                (6).</p>
+        </div>
+    </div>
+    <div class="card mt-5 mb-5 mx-auto color-rojo" style="width: 85%;">
+        <img src="../assets/abudabigp.jpg" class="card-img-top" alt="Circuito de Yas Marina">
+        <div class="card-body color-rojo">
+            <h5 class="card-title titular-calendario text-light text-center">Abu Dabi</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">Noviembre</h5>
+            <h5 class="card-title subtitulo-calendario text-light text-center">18-20</h5>
+            <p class="card-text text-light mt-2">El Gran Premio de Abu Dabi desde el año 2009 tiene lugar en el Circuito de Yas Marina. Fue el escenario donde se definio el campeón del 2021. La distancia es de
+                <strong>58</strong> vueltas. El constructor más vencedor es
+                <strong>Mercedes</strong> (6), mientras que el piloto mas laureado es <strong>Lewis Hamilton</strong>
+                (5).</p>
+        </div>
+    </div>
+    
+
+    <!-- <section class="container-grid">
         <div class="cal-card cal-card1">
             <div class="calcard-img calcard-img-1"></div>
             <h4 class="calcard-title">Arabia Saudita</h4>
@@ -155,7 +456,7 @@
                 eveniet corrupti odit modi dolore illum dolores, nostrum iste, similique consectetur explicabo ullam
                 quasi cum aspernatur odio.</p>
         </div>
-    </section>
+    </section> -->
     <!-- FOOTER -->
     <footer class="text-center color-fondo">
         <div class="text-center p-4">
@@ -165,8 +466,8 @@
     </footer>
     <!-- SCRIPT BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <!-- SCRIPT AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>

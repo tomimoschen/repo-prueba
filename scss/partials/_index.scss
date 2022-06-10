@@ -57,12 +57,16 @@
 
 .ult-noticias {
     @include estilo-h1-mobile;
-    margin: 2vh 0vh;
+    margin: 5vh 0vh;
 }
 
 .titular {
-    @include titular-mobile
+    @include titular-mobile;
+    margin-bottom: 1.5vh;
 }
 p{
-    font-size: 4.5vw;
+    font-size: 4vw;
+    font-family: 'Montserrat';
+    line-height: normal;
+    margin-bottom: .5vh;
 }

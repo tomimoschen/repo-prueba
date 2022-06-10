@@ -125,7 +125,7 @@ p {
 
 .subtitulo {
   font-family: "Montserrat";
-  font-weight: 700;
+  font-weight: 400;
   font-size: 4vw;
   margin-bottom: 5px; }
 
@@ -144,6 +144,17 @@ p {
   font-family: "Montserrat";
   font-size: 10vw;
   font-weight: bold; }
+
+.titular-calendario {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 6vw; }
+
+.subtitulo-calendario {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 5vw;
+  margin-bottom: .5vw; }
 
 .contenedor-iframe {
   position: relative;

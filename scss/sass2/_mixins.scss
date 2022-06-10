@@ -27,3 +27,10 @@
         size: 5vw;
     }
 }
+@mixin subtitulo-mobile{
+    font:{
+        family: $fuente;
+        weight: 400;
+        size: 4vw;
+    } 
+}

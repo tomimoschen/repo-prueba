@@ -68,3 +68,23 @@
         }
     }
 }
+
+.color-rojo{
+    background-color: crimson;
+    border-radius: 15px;
+    border: 0;
+}
+.titular{
+    @include titular-mobile;
+    margin-bottom: 15px;
+}
+.subtitulo{
+    @include subtitulo-mobile;
+    margin-bottom: 5px;
+}
+p{
+    font-size: 4vw;
+    font-family: 'Montserrat';
+    line-height: normal;
+    margin-bottom: 1.2vh;
+}
